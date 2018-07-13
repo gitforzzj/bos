@@ -52,7 +52,7 @@
 	</bean>
 	
 	<jaxws:client id="crmClient" serviceClass="com.itheima.crm.service.ICustomerService"
-		address="http://192.168.191.1/crm_heima32/service/customer"/>
+		address="http://localhost/crm_heima32/service/customer"/>
 	
 	<!-- 在shiro框架文件中配置bean -->
 	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
